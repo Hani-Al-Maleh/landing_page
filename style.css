@@ -14,32 +14,26 @@ body {
 
 .header-hero-section {
     background-color: #1f2937;
-
     /* border: 2px solid darkgoldenrod; */
-
     display: flex;
 
-    gap: 20px;
-
+    padding: 0 120px 50px 120px;
     flex-direction: column;
-    height: 70vh;
 }
 
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     /* border: 2px solid lawngreen; */
-
-
 }
 
 .header-links-container {
     display: flex;
-    gap: 20px;
-    justify-self: center;
-    align-items: center;
+    /* border: 4px solid red; */
+    justify-content: space-between;
+    flex: 0 0 450px;
 
     list-style: none;
     color: #e5e7eb;
@@ -49,22 +43,19 @@ body {
 .hero-section {
     /* border: 2px solid white; */
     display: flex;
-    justify-content: center;
+    flex: 1 1 auto;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
-
 
 }
 
 .description-container {
-    align-items: start;
-    text-align: left;
+justify-content: center;
+align-items: start;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: left
-;
-    justify-content: left;
+    gap: 20px;
+
 }
 
 .hero-title {
@@ -75,13 +66,54 @@ body {
 
 .hero-description {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    max-width: 100%;
 }
 
 .description-container {
     max-width: 500px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+ 
+}
+
+.logo-img {
+    max-width: 160px;
+    height: auto;
+}
+
+.hero-img {
+
+    max-width: 500px;
+    height: auto;
+}
+
+.features-title-container {
+    padding: 20px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid blueviolet;
+}
+.features-container {
+    padding :40px;
+        /* border: 4px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid brown;
+}
 button {
     color: #e5e7eb;
     background-color: #3882f6;
