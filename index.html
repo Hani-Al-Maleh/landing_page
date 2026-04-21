@@ -4,42 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
     <title>Document</title>
 </head>
 
 <body>
-    <!--
-    The header of the page
-    
-        -->
+    <div class="header-hero-section">
 
-    <header>
-        <!--the logo box-->
-        <div>
-            <img src="./images/logo/light-logo.png" width="200" alt="place holder of logo" />
+        <!--
+            The header of the page
+            
+            -->
+
+        <header class="header">
+            <!--the logo box-->
+            <div>
+                <img src="./images/logo/light-logo.png" width="200" alt="place holder of logo" />
+            </div>
+            <ul class="header-links-container">
+                <li>Features</li>
+                <li>Testimonials</li>
+                <li>Start Trial</li>
+            </ul>
+        </header>
+
+
+        <!--The Hero Secion-->
+
+        <div class="hero-section">
+            <div class="description-container">
+                <h1 class="hero-title"> Streamline Your Workflow, Anywhere in the World.</h1>
+                <p class="hero-description"> NebulaStream integrates your tasks, communication, and files into one
+                    intuitive dashboard. Stop managing
+                    tools and start managing projects</p>
+                <button class="hero-btn">Sign up</button>
+            </div>
+            <div class="hero-img">
+                <img src="./images/normal/hero.png" width="400" />
+            </div>
         </div>
-        <ul>
-            <li>Features</li>
-            <li>Testimonials</li>
-            <li>Start Trial</li>
-        </ul>
-    </header>
 
-
-    <!--The Hero Secion-->
-
-    <div>
-        <div>
-            <h1> Streamline Your Workflow, Anywhere in the World.</h1>
-            <p> NebulaStream integrates your tasks, communication, and files into one intuitive dashboard. Stop managing
-                tools and start managing projects</p>
-            <button>Sign up</button>
-        </div>
-        <div>
-            <img src="./images/normal/hero.png" width="400" />
-        </div>
     </div>
-
 
     <!--Features section-->
 
@@ -65,7 +75,8 @@
     <!--Quote secion-->
 
     <div>
-        <p>"Since switching to NebulaStream, our project delivery time has dropped by 40%. It’s not just a tool; it’s the backbone of our remote culture."
+        <p>"Since switching to NebulaStream, our project delivery time has dropped by 40%. It's not just a tool; it’s
+            the backbone of our remote culture."
 
             Sarah Jenkins, Operations Director at TechFlow Global.
         </p>
